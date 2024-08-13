@@ -1,0 +1,11 @@
+#include <stdio.h>
+ 
+int main() {
+ int x1, x2, s;
+    scanf("%d", &x1);
+    scanf("%d", &x2);
+    
+    s = x1+x2;
+    printf("X = %d\n",s);
+    return 0;
+}
