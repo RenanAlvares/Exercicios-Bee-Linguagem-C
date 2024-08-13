@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+ int x1 , x2, soma;
+ 
+ scanf("%d", &x1);
+ scanf("%d", &x2);
+ 
+ soma = x1 + x2;
+ 
+ printf("SOMA = %d\n",soma);
+    return 0;
+}
